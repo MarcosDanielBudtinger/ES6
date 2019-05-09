@@ -32,8 +32,8 @@ for(let person of newArray){
 }
 
 //case need the index
-for(let person of newArray.entries()){
-    console.log(person);
+for(let [index, value] of newArray.entries()){
+    console.log(index, value);
 }
 
 let keys = Object.keys(obj);
