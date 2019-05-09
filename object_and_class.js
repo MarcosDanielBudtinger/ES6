@@ -23,4 +23,3 @@ console.log(person.getAge());
 console.log(person.sayHello());
 
 
-
